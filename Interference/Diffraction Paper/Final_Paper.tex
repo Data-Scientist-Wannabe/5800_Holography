@@ -1,0 +1,111 @@
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage{hyperref}% add hypertext capabilities
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{Undergraduate Optics Laboratory}% Force line breaks with \\
+\thanks{A footnote to the article title}%
+
+\author{Ann Author}
+ \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+\author{Second Author}%
+ \email{Second.Author@institution.edu}
+\affiliation{%
+ Authors' institution and/or address\\
+ This line break forced with \textbackslash\textbackslash
+}%
+
+\collaboration{MUSO Collaboration}%\noaffiliation
+
+\author{Charlie Author}
+ \homepage{http://www.Second.institution.edu/~Charlie.Author}
+\affiliation{
+ Second institution and/or address\\
+ This line break forced% with \\
+}%
+\affiliation{
+ Third institution, the second for Charlie Author
+}%
+\author{Delta Author}
+\affiliation{%
+ Authors' institution and/or address\\
+ This line break forced with \textbackslash\textbackslash
+}%
+
+\collaboration{CLEO Collaboration}%\noaffiliation
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+An article usually includes an abstract, a concise summary of the work
+covered at length in the main body of the article. 
+\begin{description}
+\item[Usage]
+Secondary publications and information retrieval purposes.
+\item[Structure]
+You may use the \texttt{description} environment to structure your abstract;
+use the optional argument of the \verb+\item+ command to give the category of each item. 
+\end{description}
+\end{abstract}
+
+%\keywords{Suggested keywords}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+%\tableofcontents
+
+\section{\label{sec:level1}Introduction}
+
+The nature of light and how photons interact with each other is a commonly discussed topic in most introductory physics courses. The purpose of this article is to highlight this phenomenon through three different senior level experiments, each illustrating how diffraction phenomena arise given unique initial conditions.
+
+The prominent point of this lab is to utilize current technology to obtain and analyze high resolution images of diffraction phenomena in three different experiments: Double Slit, Arago Spot, and the Talbot carpet. Interference patterns are also generated through simulations of Huygens's Principle to prove its validity. 
+
+An overview of Huygens's Principle is discussed in II. From here, we will discuss the setup and execution of the three experiments previously stated. Lastly we will show what results we have extracted from those experiments and their comparisons with the simulations. 
+
+
+
+\section{Theoretical Background}
+
+The Huygens-Fresnel principle states that every unobstructed point on a wavefront may be treated as a source of secondary spherical wavelets with the same frequency . At any point beyond the obstruction, the amplitude of the optical field is the superposition of these wavelets (considering their amplitudes and relative phases) \cite{hecht2002optics}. 
+
+
+\bibliography{Final_Paper}
+
+\end{document}
